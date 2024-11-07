@@ -9,8 +9,8 @@ terraform {
 
 variable "parameters" {
     default = [
-        { name = "test", value = "string", value = "test"},
-        { name = "test1", value = "string", value = "test1"}
+        { name = "test", type = "string", value = "test"},
+        { name = "test1", type = "string", value = "test1"}
     ]
       
     
