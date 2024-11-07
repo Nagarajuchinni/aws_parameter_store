@@ -4,7 +4,7 @@ variable "parameters" {
         { name = "dev.rds.username", type = "String", value = "admin1"},
 
         ##pssword##
-        { name = "dev.rds.password", type = "SecureString", value = "expense123"}
+        { name = "dev.rds.password", type = "SecureString", value = "expense123"},
     ]     
     
 }
