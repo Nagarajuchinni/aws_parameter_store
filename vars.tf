@@ -1,10 +1,9 @@
-# variable "parameters" {
-#     default = [
-#         { name = "ses.username", type = "String", value = "AKIAZ55NM"},
-#         { name = "dev.rds.username", type = "String", value = "admin1"},
+variable "parameters" {
+    default = [
+        { name = "test", type = "String", value = "test"},
+        { name = "dev.rds.username", type = "String", value = "admin1"},
 
-#         ##pssword##
-#         { name = "dev.rds.password", type = "SecureString", value = "expense123"},
-#     ]     
+        { name = "dev.rds.password", type = "SecureString", value = "Expense123"}
+    ]     
     
-# }
+}
